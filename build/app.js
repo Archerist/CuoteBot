@@ -1,2 +1,8 @@
-"use strict";
-console.log("hello");
+import { Client } from "pg";
+const client = new Client({
+    connectionString: process.env.DATABASE_URL,
+    ssl: {
+        rejectUnauthorized: true
+    }
+});
+client.connect;
