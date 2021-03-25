@@ -1,0 +1,18 @@
+{
+  "name": "cuotebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^7.14.11"
+  }
+}
