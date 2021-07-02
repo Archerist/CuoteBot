@@ -2,14 +2,17 @@
   "name": "cuotebot",
   "version": "1.0.0",
   "description": "",
-  "main": "build/app.js",
+  "main": "build/app.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node build/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "knex": "^0.95.6",
     "pg": "^8.5.1"
   },
   "devDependencies": {
